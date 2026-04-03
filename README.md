@@ -1,5 +1,15 @@
 # EPUB & PDF Tools
 
+## Background
+
+I needed to convert an EPUB to PDF and went through everything I could find online — online converters, desktop apps, command-line tools. None of them produced an acceptable result: some stripped background images entirely, others output bloated 300 MB files for a single book, and most lost the original layout completely.
+
+So I built my own.
+
+The result is three focused tools that do the job the way it should be done: preserving the visual layout, keeping file sizes reasonable, and giving full control over quality vs. size trade-offs.
+
+---
+
 Three Python command-line tools for converting EPUBs to PDF and compressing PDFs.
 
 ## Tools
